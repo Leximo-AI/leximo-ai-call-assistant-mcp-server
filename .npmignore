@@ -1,0 +1,10 @@
+src/
+tsconfig.json
+.env
+.env.*
+.gitignore
+.idea/
+*.log
+package-lock.json
+server.json
+.claude-plugin/

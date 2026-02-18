@@ -1,0 +1,58 @@
+{
+  "name": "leximo-ai-call-assistant-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Leximo AI Call Assistant — schedule AI phone calls, manage assignments, check credits, and handle subscriptions directly from Claude.",
+  "main": "dist/index.js",
+  "bin": {
+    "leximo-mcp": "./dist/index.js"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "server",
+    "ai",
+    "claude",
+    "llm",
+    "phone",
+    "calls",
+    "leximo",
+    "automation",
+    "voice",
+    "ai-calls"
+  ],
+  "author": "Leximo <hello@leximo.ai>",
+  "license": "MIT",
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/leximo-ai/leximo-ai-call-assistant-mcp-server"
+  },
+  "homepage": "https://leximo.ai",
+  "bugs": {
+    "url": "https://github.com/leximo-ai/leximo-ai-call-assistant-mcp-server/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "mcpName": "leximo-ai-call-assistant",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.26.0",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.2.3",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  }
+}

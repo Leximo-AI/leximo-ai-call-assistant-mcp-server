@@ -1,0 +1,20 @@
+{
+  "name": "io.github.leximo-ai/leximo-ai-call-assistant-mcp-server",
+  "description": "Schedule AI phone calls, manage assignments, check credits, and handle subscriptions directly from Claude.",
+  "version": "1.0.0",
+  "packages": [
+    {
+      "registry_name": "npm",
+      "name": "leximo-ai-call-assistant-mcp-server",
+      "version": "1.0.0",
+      "runtime_arguments": [],
+      "environment_variables": [
+        {
+          "name": "LEXIMO_API_TOKEN",
+          "description": "Your Leximo API token from concierge.leximo.ai/profile",
+          "required": true
+        }
+      ]
+    }
+  ]
+}

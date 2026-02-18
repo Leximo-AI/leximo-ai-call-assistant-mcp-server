@@ -1,0 +1,27 @@
+{
+  "name": "leximo-ai-call-assistant-mcp-server",
+  "owner": {
+    "name": "Leximo",
+    "email": "hello@leximo.ai"
+  },
+  "plugins": [
+    {
+      "name": "leximo-ai-call-assistant",
+      "description": "Schedule AI phone calls and manage Leximo assignments directly from Claude. Supports creating call assignments, checking credits, managing subscriptions, and viewing transcripts.",
+      "version": "1.0.0",
+      "source": {
+        "source": "npm",
+        "package": "leximo-ai-call-assistant-mcp-server"
+      },
+      "mcpServers": {
+        "leximo": {
+          "command": "npx",
+          "args": ["-y", "leximo-ai-call-assistant-mcp-server"],
+          "env": {
+            "LEXIMO_API_TOKEN": ""
+          }
+        }
+      }
+    }
+  ]
+}
