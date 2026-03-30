@@ -79,6 +79,10 @@ Add to your Claude Code MCP settings:
 
 ---
 
+## Hosted deployment
+
+A hosted deployment is available on [Fronteir AI](https://fronteir.ai/mcp/leximo-ai-leximo-ai-call-assistant-mcp-server).
+
 ## Features
 
 - **Assignments** — Create, list, view, and delete AI phone call assignments
